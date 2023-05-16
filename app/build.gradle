@@ -3,6 +3,11 @@ plugins {
 }
 
 android {
+
+    buildFeatures {
+        viewBinding = true;
+    }
+
     namespace 'com.example.ericandroidlabs'
     compileSdk 33
 
